@@ -1,0 +1,16 @@
+@import "fonts";
+@import "mixins";
+@import "variables";
+
+footer {
+    background-color: $color-primary;
+    box-sizing: border-box;
+    position: fixed;
+    padding: 5px;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    a {
+        padding: 5px;
+    }
+}

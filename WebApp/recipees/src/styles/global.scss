@@ -1,0 +1,12 @@
+@import "fonts";
+@import "mixins";
+@import "variables";
+
+
+* {
+    text-decoration: none;
+    font-family: $font;
+    color: $color-text-main;
+}
+
+

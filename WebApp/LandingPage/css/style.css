@@ -1,0 +1,92 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    background-image: url(../img/background.jpg);
+    background-position: center center;
+    background-size: auto;
+    height: 100vh;
+}
+
+#bg
+{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url(../img/background.jpg);
+    background-position: center center;
+    background-size: auto;
+    filter: blur(6px);
+}
+
+.logo
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 100pt;
+    text-align: center;
+    top: 100px;
+}
+
+.subtext
+{
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25pt;
+    text-align: center;
+    top: 100px;
+}
+
+.content
+{
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+
+#timer
+{
+    position: relative;
+    font-size: 35pt;
+    color: rgb(175, 175, 175);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    z-index: 100;
+}
+
+.timeEnd
+{
+    position: relative;
+    top: -20px;
+    transition: 500ms opacity, 500ms top;
+    opacity: 0;
+    z-index: 50; 
+    width: 255px;
+    border-radius: 5px;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    margin: auto;
+}
+
+.timeEnd.visible
+{
+    top: 0px;
+    opacity: 1;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+footer a
+{
+    color: rgb(255, 255, 255);
+}

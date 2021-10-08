@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/create_recipe"
+          android:id="@+id/bottom_bar_add" app:showAsAction="ifRoom"
+          android:icon="@drawable/ic_baseline_add_box_24px"/>
+    <item
+            android:id="@+id/bottom_bar_favorite"
+            android:title="@string/favorites"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_baseline_favorite_24px"/>
+
+    <item
+            android:id="@+id/bottom_bar_search"
+            android:title="@string/search"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_baseline_search_24px"/>
+
+</menu>

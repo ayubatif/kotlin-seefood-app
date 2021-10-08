@@ -1,0 +1,15 @@
+@import "./global.scss";
+
+
+.wrapperMain {
+    background-color: $color-secondary;
+    text-align: center;
+    position: fixed;
+    overflow-y: scroll;
+    padding-right: 10%;
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    left: 0px; 
+    top: 6.9%;
+}

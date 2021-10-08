@@ -1,0 +1,51 @@
+<!Doctype html>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+</style> 
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Recipeers</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="javascript/javascript.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="bg"></div>
+        <div class="logo">Recipeers</div>
+        <div class="subtext">Wut My Food B?</div>
+        <div class="content">
+            <p>
+                Finding new recipes is as easy taking a picture.<br/>
+                Get a personal experience with favorite cuisines<br/>
+                and avoid ingredients.
+            </p>
+            <p>
+                Will be available in:
+            </p>
+            
+            <p id="timer"></p>
+            <script>
+            setInterval(update, 1000)
+                function update(){
+                    document.getElementById("timer").innerHTML = dateTimer();
+                }
+            $("#timer").hover(function()
+            {
+                $(".timeEnd").addClass("visible");
+            }, function()
+            {
+                $(".timeEnd").removeClass("visible");
+            }
+            );
+            </script>
+            <p class="timeEnd">
+                Will be released on 2018 December 25
+            </p>
+        </div>
+        <footer>Photo by <a class="link" href="https://unsplash.com/photos/uQs1802D0CQ">Katie Smith</a> 
+        on <a class="link" href="https://unsplash.com/">Unsplash</a></footer>
+    </body>
+</html>

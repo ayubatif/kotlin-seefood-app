@@ -1,0 +1,27 @@
+@import "./global.scss";
+
+
+.loginBox {
+    background-color: $color-primary;
+    box-sizing: border-box;
+    position: center;
+    padding: 5px;
+    width: 50%;
+    height: 50%;
+    left: 0px;
+    bottom: 50%;
+    top: 50%;
+}
+
+.button-login {
+    background-color: $color-primary;
+    box-sizing: border-box;
+    position: center;
+    padding: 5px;
+    width: 50%;
+    height: 50%;
+    left: 0px;
+    bottom: 50%;
+    top: 50%;
+}
+
